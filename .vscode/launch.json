@@ -1,0 +1,28 @@
+// {
+//     "version": "0.2.0",
+//     "configurations": [
+//         {
+//             "name": "Launch localhost Firerox",
+//             "type": "firefox",
+//             "request": "launch",
+//             "reAttach": true,
+//             "url": "http://localhost/index.html",
+//             "pathMappings": [{
+//                 "url": "http://localhost",
+//                 "path": "${workspaceFolder}"
+//             }]
+//         }
+//     ]
+// }
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch home.html",
+            "type": "firefox",
+            "request": "launch",
+            "reAttach": true,
+            "url": "file://///wsl$/Ubuntu-20.04/home/ivan/projects/stopskol-landing/home.html"
+        }
+    ]
+}
