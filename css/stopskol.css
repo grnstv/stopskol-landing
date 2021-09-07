@@ -10,6 +10,13 @@
 
 
 		*/
+		/* override bootstrap container to make it look close to franchise*/
+		
+		@media screen and (min-width: 1300px) {
+		    .container {
+		        max-width: 1300px;
+		    }
+		}
 		
 		@keyframes flash {
 		    0%,
@@ -138,7 +145,7 @@
 		    -o-transition: background-color 0.2s linear;
 		    transition: background-color 0.2s linear;
 		    background: #FFFFFF;
-		    border-bottom: 1px dashed #e1e1e1;
+		    border-bottom: 1px solid #dfe1ea;
 		}
 		
 		.opacity-0 {
