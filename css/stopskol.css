@@ -337,28 +337,34 @@
 		#myImg:hover {
 		    opacity: 0.7;
 		}
-		/* The Modal (background) */
 		
 		.modal {
-		    display: block;
-		    position: fixed;
-		    /* Stay in place */
+		    background: white;
+		}
+		
+		.modal-content {
+		    border: 0px;
+		}
+		
+		.modal-dialog {
+		    margin: 0px auto;
+		}
+		
+		.modal-header {
+		    justify-content: center;
+		}
+		/* The Modal (background)
+		
+		.modal {
 		    z-index: 1200;
-		    /* Sit on top */
 		    padding-top: 30px;
-		    /* Location of the box */
 		    left: 0;
 		    top: 0;
 		    width: 100%;
-		    /* Full width */
 		    height: 100%;
-		    /* Full height */
 		    overflow: auto;
-		    /* Enable scroll if needed */
 		    background-color: #e9ecef;
-		    /* Fallback color */
 		    background-color: rgba(233, 236, 239, 0.95);
-		    /* Secondary w/ opacity */
 		}
 		
 		.modal h4 {
@@ -370,6 +376,7 @@
 		    display: block;
 		    max-width: 90%;
 		}
+		*/
 		
 		.position-fixed-tricky {
 		    height: 0px;
@@ -384,7 +391,20 @@
 		        transform: scale(1)
 		    }
 		}
-		/* The Close Button */
+		
+		.close {
+		    position: fixed;
+		    top: 15px;
+		    left: 15px;
+		    color: #000000;
+		    font-size: 40px;
+		    font-weight: normal;
+		    transition: 0.3s;
+		    padding: 0 !important;
+		    margin: 0 !important;
+		    transform: rotate(180deg);
+		}
+		/* The Close Button
 		
 		.close {
 		    position: fixed;
@@ -402,6 +422,7 @@
 		    text-decoration: none;
 		    cursor: pointer;
 		}
+		 */
 		/* 100% Image Width on Smaller Screens */
 		
 		@media only screen and (max-width: 700px) {

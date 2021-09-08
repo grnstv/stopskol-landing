@@ -208,16 +208,67 @@
                         <p class="card-text">По системе «STOPСКОЛ» — профилактика появления сколов и длинных трещин.
                         </p>
                         <h4 class="card-title">От 3500 <small class="text-muted">руб</small></h4>
-                        <button type="button" class="btn btn-success btn-lg triggerthepatent">Подробнее</button>
+                        <button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#glassarmorModal">
+                            Подробнее
+                          </button>
+
+                        <!-- Modal glass armor -->
+                        <div class="modal" id="glassarmorModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <svg class="t-popup__close-icon" width="11" height="20" viewBox="0 0 11 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 1L10 10L1 19" stroke="#000000" stroke-width="2"></path>
+                                    </svg>
+                                </button>
+                                <h5 class="modal-title" id="exampleModalLongTitle">Защита лобовых автостекол по системе STOP СКОЛ.</h5>
+
+                            </div>
+                            <div class="modal-dialog modal-lg" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-body">
+                                        <h3 class="py-4">Бронирование лобового стекла</h3>
+                                        <img class="pb-2" width="100%" src="img/armor/stopskol-armor-patented-compressed2.jpg">
+                                        <p>Защита, бронирование слабых, особо уязвимых мест, прозрачной полиуретановой пленкой по системе STOP СКОЛ усилит прочностные характеристики лобового стекла, в разы увеличит шансы сохранить стекло на весь срок эксплуатации.</p>
+
+                                        <p>Периметр является слабой, наиболее уязвимой частью лобового стекла. Удар в эту область гарантированно приводит к образованию длинных трещин, а так же двухсторонних не ремонтопригодных повреждений и в 90% случаев
+                                            приводит к замене лобового стекла. Установлено экспериментально, а также путем сбора и анализа разбитых лобовых стекол.</p>
+                                        <p>Каждый образец был разработан и проверен на соответствие лобовому стеклу конкретного автомобиля и протестировано в полевых условиях на протяжении двух лет. Лекала снимаются, оцифровываются при помощи современного
+                                            оборудования и вырезаются на ЧПУ станке. Подробная инструкция по монтажу прилагается. </p>
+
+                                        <div class="card-group mb-3 text-left card-group-rain">
+                                            <div class="card box-shadow">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Легковая</h4>
+                                                    <h4 class="card-title">3500 <small class="text-muted">руб</small></h4>
+                                                </div>
+                                            </div>
+                                            <div class="card box-shadow">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Внедорожник</h4>
+                                                    <h4 class="card-title">4500 <small class="text-muted">руб</small></h4>
+                                                </div>
+                                            </div>
+                                            <div class="card box-shadow">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Микроавтобус</h4>
+                                                    <h4 class="card-title">5000 <small class="text-muted">руб</small></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <p>На любые вопросы по технологии бронирования подробнее расскажет и запишет на установку Михаил Смирнов по тел.: <a href="tel:+79229200025">+79229200025</a></p>
+
+
+                                    </div>
+                                    <div class="modal-footer text-left">
+                                        <p>г. Киров, ул. Ленина 119А Сервис STOP СКОЛ тел.: <a href="tel:+78332452947">+7(8332)452947</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div id="myPatent" class="modal hidden">
-                    <span class="close">&times;</span>
-                    <h4 class="text-center">Защита, бронирование слабых особо уязвимых мест лобового стекла<br> Позволит в разы увеличить шансы сохранить целостность стекла<br> на весь срок эксплуатации автомобиля!</h4>
-                    <img class="modal-data" id="img00" src="img/modal-light-patented.jpg">
-                    <h4 class="text-left">Установленно экспериментально, а также путем сбора и анализа разбитых лобовых стекол у клиентов, что указанные ширины являются наибольшими концентраторами силовых нагрузок. Поэтому более 90% появления длинных трещин а также двусторонних
-                        неремонтопригодных повреждений происходят при ударе в край лобового стекла.</h4>
-                </div>
+
             </div>
             <div class="card-group mb-0 text-left">
                 <div class="card box-shadow">
@@ -257,7 +308,61 @@
             <h3 class="display-3">Защитное полимерное покрытие автостекол</h3>
             <p class="lead">Вода автоматически покидает лобовое стекло без работы дворников, эффект Антидождь.</p>
             <br />
-            <button type="button" class="btn btn-light btn-lg triggerthemfknmodal">Подробнее</button>
+            <button type="button" class="btn btn-light btn-lg" data-toggle="modal" data-target="#antirainModal">Узнать больше</button>
+            <!-- Modal anti-rain -->
+            <div class="modal text-left" id="antirainModal" tabindex="-1" role="dialog" aria-labelledby="antirainModalTitle" aria-hidden="true">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <svg class="t-popup__close-icon" width="11" height="20" viewBox="0 0 11 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 1L10 10L1 19" stroke="#000000" stroke-width="2"></path>
+                        </svg>
+                    </button>
+                    <h5 class="modal-title" id="exampleModalLongTitle">Защита лобовых автостекол по системе STOP СКОЛ.</h5>
+
+                </div>
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <h3 class="py-4">Защитное покрытие «Антидождь»</h3>
+                            <iframe class="pb-2" width="800" height="450" src="https://www.youtube.com/embed/1DzrAtZYGIA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <p>Защита, бронирование слабых, особо уязвимых мест, прозрачной полиуретановой пленкой по системе STOP СКОЛ усилит прочностные характеристики лобового стекла, в разы увеличит шансы сохранить стекло на весь срок эксплуатации.</p>
+
+                            <p>Периметр является слабой, наиболее уязвимой частью лобового стекла. Удар в эту область гарантированно приводит к образованию длинных трещин, а так же двухсторонних не ремонтопригодных повреждений и в 90% случаев приводит к
+                                замене лобового стекла. Установлено экспериментально, а также путем сбора и анализа разбитых лобовых стекол.</p>
+                            <p>Каждый образец был разработан и проверен на соответствие лобовому стеклу конкретного автомобиля и протестировано в полевых условиях на протяжении двух лет. Лекала снимаются, оцифровываются при помощи современного оборудования
+                                и вырезаются на ЧПУ станке. Подробная инструкция по монтажу прилагается. </p>
+
+                            <div class="card-group mb-3 text-left card-group-rain">
+                                <div class="card box-shadow">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Легковая</h4>
+                                        <h4 class="card-title">3500 <small class="text-muted">руб</small></h4>
+                                    </div>
+                                </div>
+                                <div class="card box-shadow">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Внедорожник</h4>
+                                        <h4 class="card-title">4500 <small class="text-muted">руб</small></h4>
+                                    </div>
+                                </div>
+                                <div class="card box-shadow">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Микроавтобус</h4>
+                                        <h4 class="card-title">5000 <small class="text-muted">руб</small></h4>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <p>На любые вопросы по технологии бронирования подробнее расскажет и запишет на установку Михаил Смирнов по тел.: <a href="tel:+79229200025">+79229200025</a></p>
+
+
+                        </div>
+                        <div class="modal-footer text-left justify-content-between">
+                            <p>г. Киров, ул. Ленина 119А Сервис STOP СКОЛ тел.: <a href="tel:+78332452947">+7(8332)452947</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <div id="myModal" class="modal hidden">
