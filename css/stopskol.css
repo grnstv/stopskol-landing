@@ -44,12 +44,13 @@
 			background-position: 0px 16px;
 			*/
 		}
-		/* The franchise change city icon
-		.navbar-text .selected-city {	
-			border-bottom: 1px dashed rgba(0,0,0,0.7); 
-			cursor: pointer;
+		
+		@media screen and (orientation: portrait) and (max-width: 768px) {
+		    .navbar-text .selected-city {
+		        border-bottom: 1px dashed rgba(0, 0, 0, 0.7);
+		        cursor: pointer;
+		    }
 		}
-		*/
 		
 		.navbar-text a {
 		    font-size: 1.3rem;
@@ -158,12 +159,6 @@
 		    font-size: 16px;
 		}
 		
-		.sld {
-		    //height: 700px;
-		    //color: #FFFFFF;
-		    //text-shadow: 1px 1px 1px #FFFFFF;
-		}
-		
 		.sld .carousel {
 		    max-width: 640px;
 		    max-height: 580px;
@@ -202,8 +197,6 @@
 		    text-indent: 0;
 		    width: auto;
 		    cursor: pointer;
-		    //font-family: Georgia;
-		    //padding: 0px 50px 0px 70px;
 		    font-size: 22px;
 		    padding: 0 5%;
 		}
@@ -475,7 +468,7 @@
 		        font-size: 1.5rem !important;
 		    }
 		    .fgq li {
-		        padding: 0px !important;
+		        padding: 5px !important;
 		    }
 		    .f-title h5 {
 		        font-size: 1.3rem !important;
