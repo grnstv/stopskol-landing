@@ -19,7 +19,7 @@
                 window.open("maps://maps.google.com/maps?daddr=58.5883117984269,49.68148465585994&amp;ll=");
 
             else /* else use Google */
-                window.open("https://maps.google.com/maps?daddr=58.5883117984269,49.68148465585994&amp;ll=");
+                window.open("geo:58.5883117984269,49.68148465585994");
         }
     }
 
