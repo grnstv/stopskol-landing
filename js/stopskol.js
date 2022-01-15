@@ -38,6 +38,7 @@
     });
 
     $(document).ready(function() {
+        console.log('Got any ideas how can we improve this? Drop us a letter at sm777sms@mail.ru');
         $(".swap_toggle").swiperight(function() {
             $('#f-carousel').carousel('prev');
             var prev = $('.f-title .active').removeClass('active').prev();
@@ -81,13 +82,9 @@
         function isScrolledIntoView(elem) {
             var docViewTop = $(window).scrollTop();
             var docViewBottom = docViewTop + $(window).height();
-            console.log('TOP ' + docViewTop);
-            console.log('BOTT ' + docViewBottom);
             var elemTop = $(elem).offset().top;
             var elemBottom = elemTop + $(elem).outerHeight();
 
-            console.log('Elem T ' + elemTop);
-            console.log('Elem b ' + elemBottom);
             return !(docViewTop >= elemBottom);
         }
         $(window).on('scroll', function() {
