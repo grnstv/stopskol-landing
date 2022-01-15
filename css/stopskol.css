@@ -49,6 +49,9 @@
 		    .navbar-text .selected-city {
 		        border-bottom: 1px dashed rgba(0, 0, 0, 0.7);
 		        cursor: pointer;
+		        background: url(../img/location.png) no-repeat;
+		        background-position: 0px 7px;
+		        padding-left: 12px;
 		    }
 		}
 		
